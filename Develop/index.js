@@ -137,8 +137,14 @@ function userInput() {
 
 ]);
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// function to write README file
+function writeToFile(fileName, data) {
+    fs.writefile(fileName,data, (err) => {
+        if (err)
+        throw err;
+        console.log('you have created a ReadME file!')
+    })
+};
 
 // TODO: Create a function to initialize app
 function init() {}
