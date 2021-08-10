@@ -21,7 +21,7 @@ function userInput() {
             if (titleInput) {
                 return true;
             } else {
-                console.log('You need to enter a title to continue!');
+                console.log('Please enter a title to continue');
                 return false;
             }
         }
