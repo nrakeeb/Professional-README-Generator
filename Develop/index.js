@@ -14,7 +14,7 @@ function userInput() {
     // Project title name
     {
         type: 'input',
-        message: 'What project title would you like?',
+        message: 'What is your project title?',
         name: 'project title',
         // installed validator library with (npm install validator)
         validate: titleInput => {
