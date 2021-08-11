@@ -11,7 +11,7 @@ const questions= [
     {
         type: 'input',
         message: 'What is your project title?',
-        name: 'project title',
+        name: 'projectTitle',
         // installed validator library with (npm install validator)
         validate: titleInput => {
             if (titleInput) {
