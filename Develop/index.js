@@ -109,47 +109,56 @@ const questions= [
             }
         }
     },
+    // Enter Github username
     {
         type: 'input',
-        name: 'github Repo',
-        message: 'Enter your GitHub Repository url (Required)',
+        name: 'username',
+        message: 'Enter your GitHub username ',
         validate: githubInput => {
             if (githubInput) {
                 return true;
             } else {
-                console.log('Please enter your GitHub Respository url address');
+                console.log('Please enter your GitHub username');
                 return false;
             }
         }
     },
+    //Enter user Email address
     {
         type: 'input',
-        name: 'github',
-        message: 'Enter your deployed Web url (Required)',
+        name: 'email',
+        message: 'Enter your email address ',
         validate: githubInput => {
             if (githubInput) {
                 return true;
             } else {
-                console.log('Please enter your Web url address');
+                console.log('Please enter your email address');
                 return false;
             }
         }
     },
-    
+]   
 
-]);
+
 
 // function to write README file
 function writeToFile(fileName, data) {
-    fs.writefile(fileName,data, (err) => {
+    fs.writeFile(fileName,data, (err) => {
         if (err)
         throw err;
-        console.log('you have created a ReadME file!')
+        console.log('you have created a README file!')
     })
 };
 
-// TODO: Create a function to initialize app
-function init() {}
+// function to initialize app
+function init() {
+    inquirer.prompt(questions)
+    .then(function (userInput) {
+        writeToFile("README.md", generateMarkdown(userInput));
+    });
+};
+
+
 
 // Function call to initialize app
 init();
