@@ -89,18 +89,19 @@ const questions= [
             if (contributionInput) {
                 return true;
             } else {
-                console.log('Please provide information on how to contribute to the project');
+                console.log('Please provide information on who have contributed on this project');
                 return false;
             }
         }
     },
+    // user can select which license from checkbox
     {
-        type: 'checkbox',
+        type: 'list',
         message: 'Choose a license for your project (Required)',
-        name: 'licensing',
+        name: 'license',
         choices: ['Apache', 'MIT', 'Mozilla-Public', 'GNU-General-Public', 'Common-Development-and Distribution', 'None'],
-        validate: licensingInput => {
-            if (licensingInput) {
+        validate: licenseInput => {
+            if (licenseInput) {
                 return true;
             } else {
                 console.log('Please pick a license for the project to continue');
