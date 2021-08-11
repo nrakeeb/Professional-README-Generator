@@ -66,9 +66,10 @@ const questions= [
         }
 
     },
+    // How to test project
     {
         type: 'input',
-        message: 'How do you test this project? (Required)',
+        message: 'How do you test this project? ',
         name: 'testing',
         validate: testingInput => {
             if (testingInput) {
