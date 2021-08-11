@@ -36,9 +36,10 @@ const questions= [
             }
         }
     },
+    // How to install project
     {
         type: 'input',
-        message: 'How do you install your project? (Required)',
+        message: 'How do you install your project?',
         name: 'installation',
         validate: installationInput => {
             if (installationInput) {
