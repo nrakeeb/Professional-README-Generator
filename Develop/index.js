@@ -51,9 +51,10 @@ const questions= [
         } 
 
     },
+    // How to use project
     {
         type: 'input',
-        message: 'How do you use this project? (Required)',
+        message: 'How do you use this project?',
         name: 'usage',
         validate: usageInput => {
             if (usageInput) {
