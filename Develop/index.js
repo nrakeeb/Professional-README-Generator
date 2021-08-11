@@ -80,9 +80,10 @@ const questions= [
             }
         }
     },
+    // Who contributed to the project
     {
         type: 'input',
-        message: 'How should people contribute to this project? (Required)',
+        message: 'Who are the contributors of this project?',
         name: 'contribution',
         validate: contributionInput => {
             if (contributionInput) {
