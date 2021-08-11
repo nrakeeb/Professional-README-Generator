@@ -5,11 +5,8 @@ const fs = require('fs');
 const generateMarkdown= require('./utils/generateMarkdown')
 
 // An array of objects detailing questions for user input
-function userInput() {
-    return inquirer.prompt([
 
-   
-
+const questions= [
     
     // Project title name
     {
