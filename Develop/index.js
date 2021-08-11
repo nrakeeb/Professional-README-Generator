@@ -22,6 +22,7 @@ const questions= [
             }
         }
     },
+    // Descripion of project
     {
         type:'input',
         message: 'Write a brief description of your project: ',
