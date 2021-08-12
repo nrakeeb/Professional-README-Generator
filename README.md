@@ -3,11 +3,12 @@
   [![license](https://img.shields.io/badge/license-MIT-green)](https://shields.io)
 
   ## Table of Contents
-  - [Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contribution](#contribution)
-  - [Testing](#testing)
+  - [Description](#-description)
+  - [Installation](#-installation)
+  - [Usage](#-usage)
+  - [Contribution](#-contribution)
+  - [Testing](#-testing)
+  - [license](#license)
 
  
   ## 🔍 Description:
