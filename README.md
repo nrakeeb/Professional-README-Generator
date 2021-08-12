@@ -19,6 +19,10 @@
   User must have node.js and Inquirer installed.
 
   
+  ## Visual Presentation
+  ![til](../src/presentation.gif)
+
+  
   ## 💻 Usage:
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for information about my application repository
