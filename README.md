@@ -5,8 +5,9 @@
   ## Table of Contents
   - [Description](#-description)
   - [Installation](#-installation)
+  - [Visual Presntation](#visual-presentation)
   - [Usage](#-usage)
-  - [license](#license)
+  - [License](#license)
 
  
   ## 🔍 Description:
