@@ -20,7 +20,7 @@
 
   
   ## Visual Presentation
-  ![til](../src/presentation.gif)
+  ![me](https://github.com/nrakeeb/Professional-README-Generator/blob/Master/src/presentation.gif)
 
   
   ## 💻 Usage:
