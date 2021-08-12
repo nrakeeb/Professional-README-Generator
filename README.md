@@ -6,8 +6,6 @@
   - [Description](#-description)
   - [Installation](#-installation)
   - [Usage](#-usage)
-  - [Contribution](#-contribution)
-  - [Testing](#-testing)
   - [license](#license)
 
  
